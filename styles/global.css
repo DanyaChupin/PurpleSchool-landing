@@ -1,0 +1,28 @@
+:root {
+	--color-text: #fafafa;
+	--color-link-hover: #afb2bf;
+	--color-bg: #16171d;
+	--color-bg-light: #2e2d3d;
+	--color-bg-medium: #1e1f29;
+	--color-primary: #6c38cc;
+	--color-stroke: #4d5064;
+	--border-8: 8px;
+	--border-10: 10px;
+	--button-bg: #6c38cc;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background: var(--color-bg);
+	//font
+	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+}
