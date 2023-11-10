@@ -55,6 +55,8 @@
 		display: none;
 	}
 	.menu__burger {
+		border: none;
+		background: none;
 		display: inline;
 	}
 }
@@ -63,6 +65,6 @@
 		padding: 30px 24px;
 	}
 	.header__logo {
-		width: 150px;
+		width: 200px;
 	}
 }

@@ -1,10 +1,11 @@
 :root {
 	--color-text: #fafafa;
 	--color-link-hover: #afb2bf;
-
+	--color-secondary: #e47ad5;
 	--color-bg: #16171d;
 	--color-bg-light: #2e2d3d;
 	--color-bg-medium: #1e1f29;
+	--color-bg-footer: #101114;
 
 	--color-primary: #6c38cc;
 	--color-primary-hover: #5a2fac;
