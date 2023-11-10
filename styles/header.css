@@ -3,9 +3,9 @@
 }
 
 .header__wrapper {
-	max-width: 1220px;
+	max-width: var(--layout-width);
 	margin: 0 auto;
-	padding: 50px 149px;
+	padding: 40px 24px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -33,7 +33,9 @@
 	border-radius: var(--border-8);
 	color: var(--color-link-hover);
 }
-
+.menu__burger {
+	display: none;
+}
 .header__login {
 	display: flex;
 	align-items: center;
@@ -43,4 +45,24 @@
 
 .header__login:hover {
 	color: var(--color-link-hover);
+}
+
+@media (max-width: 960px) {
+	.menu {
+		display: none;
+	}
+	.header__login {
+		display: none;
+	}
+	.menu__burger {
+		display: inline;
+	}
+}
+@media (max-width: 480px) {
+	.header__wrapper {
+		padding: 30px 24px;
+	}
+	.header__logo {
+		width: 150px;
+	}
 }
