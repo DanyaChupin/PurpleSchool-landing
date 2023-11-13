@@ -1,10 +1,13 @@
 :root {
 	--color-text: #fafafa;
 	--color-link-hover: #afb2bf;
-
+	--color-secondary: #e47ad5;
 	--color-bg: #16171d;
 	--color-bg-light: #2e2d3d;
 	--color-bg-medium: #1e1f29;
+	--color-bg-footer: #101114;
+
+	--color-gray: #afb2bf;
 
 	--color-primary: #6c38cc;
 	--color-primary-hover: #5a2fac;
@@ -22,10 +25,17 @@
 		#6c38cc 104.58%
 	);
 }
-
-body {
+* {
 	padding: 0;
 	margin: 0;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+body {
 	box-sizing: border-box;
 	background: var(--color-bg);
 	//font
