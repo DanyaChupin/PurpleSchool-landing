@@ -19,6 +19,7 @@
 }
 
 .footer__menu-header {
+	margin-bottom: 16px;
 	font-size: 16px;
 	line-height: 120%;
 	color: var(--color-secondary);
